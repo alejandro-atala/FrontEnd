@@ -14,16 +14,17 @@
 }
 
 .menu1 {
-  margin-left: 65%;
+  margin-left: 70%;
   width: 25%;
   height: 20%;
   background-color: rgb(12, 150, 0);
   border: solid 1px black;
   color: white;
+  margin-top: -50px;
 }
 
 .menu2 {
-  margin-left: 50%;
+  margin-left: 55%;
   margin-top: 5px;
   width: 40%;
   height: 20%;
@@ -85,7 +86,7 @@
 .izq2 {
   display: inline-flex;
   margin-top: 15px;
-  width: 65%;
+  width: 66%;
   height: 200px;
   background-color: rgb(40, 138, 1);
   border: solid 1px black;
