@@ -1,0 +1,104 @@
+body {
+  background-color: darkgrey;
+}
+
+.encabezado {
+  font-size: 80px;
+  width: 30%;
+  height: 90px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: rgb(29, 158, 3);
+  border-radius: 10px;
+  border: solid 2px black;
+  font-weight: bold;
+  box-shadow: 0px 30px 30px 0 rgb(0, 0, 0);
+}
+
+.class1 {
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  height: 250px;
+  background-color: #666666;
+  color: white;
+  border-radius: 10px;
+  border: solid 5px black;
+  margin-top: 50px;
+  padding: 5px;
+}
+
+.pie {
+  background-color: rgb(29, 158, 3);
+  height: 50px;
+  width: 100%;
+  border-radius: 10px;
+  border: solid 2px black;
+  margin-top: 10px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.resaltar {
+  color: rgb(255, 255, 255);
+  font-style: italic;
+}
+.rojo {
+  color: rgb(184, 0, 0);
+}
+
+.boton {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.btn {
+  text-align: center;
+}
+.boton:hover {
+  background-color: #3e8e41;
+}
+
+.boton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.lista {
+  text-align: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.li {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+img {
+  display: flex;
+  width: 350px;
+  height: 250px;
+}
