@@ -3,13 +3,12 @@ body {
 }
 
 .encabezado {
-  font-size: 80px;
-  width: 30%;
-  height: 90px;
+  display: flex;
+  justify-content: center;
+  font-size: 4em;
+  width: 20%;
+  height: auto;
   margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
   background-color: rgb(29, 158, 3);
   border-radius: 10px;
   border: solid 2px black;
@@ -31,7 +30,7 @@ body {
 
 .pie {
   background-color: rgb(29, 158, 3);
-  height: 50px;
+  height: auto;
   width: 100%;
   border-radius: 10px;
   border: solid 2px black;
@@ -76,10 +75,6 @@ body {
 
 .lista {
   text-align: right;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
   background-color: #333;
 }
 
